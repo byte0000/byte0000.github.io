@@ -169,6 +169,15 @@
 			return false;
 		});
 
+		$('.js-playsound').on('click', function(event){
+			
+			event.preventDefault();
+
+			alert("ok")
+			
+			return false;
+		});
+
 		$(window).scroll(function(){
 
 			var $win = $(window);
