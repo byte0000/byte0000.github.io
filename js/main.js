@@ -1,3 +1,6 @@
+var audio = new Audio('mp3s/bg.mp3');
+audio.play();
+
 ;(function () {
 	
 	'use strict';
@@ -173,8 +176,14 @@
 			
 			event.preventDefault();
 
-			alert("ok")
-			
+			if(audio.duration > 0 && !audio.paused){
+				//PLAYING
+				audio.pause();
+				audio.currentTime = 0;
+			} else {
+				audio.play();
+			}
+
 			return false;
 		});
 
