@@ -64,10 +64,11 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<link href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/images_gallery.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-	
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Roboto|Roboto+Slab&display=swap" rel="stylesheet">
 
 	</head>
@@ -281,7 +282,7 @@
 			</div>
 			<div class="row row-bottom-padded-md">
 				<div class="col-md-12">
-					<ul id="fh5co-gallery-list">
+					<!-- <ul id="fh5co-gallery-list">
 						
 						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-1.jpg); "> 
 						<a href="images/gallery-1.jpg">
@@ -351,7 +352,55 @@
 								</div>
 							</a>
 						</li>
-					</ul>		
+					</ul>		 -->
+
+					<div class="cont">
+							<div class="page-head">		  
+							<div class="demo-gallery">
+							  <ul id="lightgallery">
+								<li data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/1-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/1.jpg 800" 
+								data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg"
+								data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+								  <a href="">
+									<img class="img-responsive" src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-1.jpg">
+									<div class="demo-gallery-poster">
+									  <img src="https://sachinchoolur.github.io/lightgallery.js/static/img/zoom.png">
+									</div>
+								  </a>
+								</li>
+								<li data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/2-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/2-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/2.jpg 800" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/2-1600.jpg"
+								data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+								  <a href="">
+									<img class="img-responsive" src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-2.jpg">
+									<div class="demo-gallery-poster">
+									  <img src="https://sachinchoolur.github.io/lightgallery.js/static/img/zoom.png">
+									</div>
+								  </a>
+								</li>
+								<li data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/13-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/13-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/13.jpg 800" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
+								data-sub-html="<h4>Sunset Serenity</h4><p>A gorgeous Sunset tonight captured at Coniston Water....</p>">
+								  <a href="">
+									<img class="img-responsive" src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-13.jpg">
+									<div class="demo-gallery-poster">
+									  <img src="https://sachinchoolur.github.io/lightgallery.js/static/img/zoom.png">
+									</div>
+								  </a>
+								</li>
+								<li data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/4-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/4-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/4.jpg 800" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/4-1600.jpg"
+								data-sub-html="<h4>Coniston Calmness</h4><p>Beautiful morning</p>">
+								  <a href="">
+									<img class="img-responsive" src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-4.jpg">
+									<div class="demo-gallery-poster">
+									  <img src="https://sachinchoolur.github.io/lightgallery.js/static/img/zoom.png">
+									</div>
+								  </a>
+								</li>
+							  </ul>
+							</div>
+						  </div>
+						</div>
+
+
 				</div>
 			</div>
 		</div>
@@ -669,4 +718,16 @@
 
 	</body>
 </html>
+		
+<script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+<script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-pager.js/master/dist/lg-pager.js"></script>
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js"></script>
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js"></script>
 
+<script>
+	lightGallery(document.getElementById('lightgallery'));
+</script>
