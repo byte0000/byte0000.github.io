@@ -6,7 +6,8 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Thu&Tuấn</title>
+	<!-- <title>Thu❤️Tuấn</title> -->
+	<title>Thu♡Tuấn</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
@@ -75,8 +76,46 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Roboto|Roboto+Slab&display=swap" rel="stylesheet">
 
+
+	<style>
+		#heart {
+			transform: translate(-50%, -50%);
+			color: aliceblue;
+			-webkit-animation-duration: 1s;
+			-webkit-animation-name: heartbeat;
+			-webkit-animation-iteration-count: infinite;
+			-webkit-animation-direction: alternate;
+			animation-duration: 1.5s;
+			animation-name: heartbeat;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			}
+
+			@-moz-keyframes heartbeat {
+			0% {
+				-webkit-transform: scale(1.2);
+				transform: scale(1.2);
+			}
+			100% {
+				-webkit-transform: scale(1);
+				transform: scale(1);
+			}
+			}
+			@keyframes heartbeat {
+			0% {
+				-webkit-transform: scale(1.2);
+				transform: scale(1.2);
+			}
+			100% {
+				-webkit-transform: scale(1);
+				transform: scale(1);
+			}
+			}
+	</style>
+
 	</head>
-	<body id="header-plugin">
+
+	<body id="header-plugin" class="bg_heart">
 		
 	<div class="fh5co-loader"></div>
 	
@@ -124,7 +163,10 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Thu &amp; Tuấn</h1>
+							<!-- <h1>Thu &amp; Tuấn</h1> -->
+
+							<h1 id="heart"> Thu ♡ Tuấn</h1>
+							
 							<p style="color: aliceblue;">We Are Getting Married</p>
 							<p style="color: aliceblue;">2019/12/04</p>
 							<div class="simply-countdown simply-countdown-one"></div>
@@ -783,6 +825,7 @@
 						<h3 style="font-family: 'Roboto Slab', serif;">Groom Contact Information</h3>
 						<ul>
 							<li class="address">Chợ Đồng Vàng, Hoàng Long <br>Phú Xuyên, Hà Nội</li>
+							<li class="address"><a target="blank" href="https://goo.gl/maps/jpwXbfHZAmHEkCET8">Google Map (From HaNoi)</a></li>
 							<li class="phone"><a href="tel://1234567920">32 971 5498</a></li>
 							<li class="email"><a href="mailto:leminhtuan2015@gmail.com">leminhtuan2015@gmail.com</a></li>
 
@@ -797,6 +840,7 @@
 						<h3 style="font-family: 'Roboto Slab', serif;">Bride Contact Information</h3>
 						<ul>
 							<li class="address">Yên Bình <br>Ý Yên, Nam Định</li>
+							<li class="address"><a target="blank" href="https://goo.gl/maps/HgnejJJ25ZMGz2eLA">Google Map (From HaNoi)</a></li>
 							<li class="phone"><a href="tel://1234567920">38 200 6198</a></li>
 							<li class="email"><a href="mailto:thumtb@gmail.com">thumtb@gmail.com</a></li>
 
@@ -904,4 +948,10 @@
 
 <script>
 	confetti.start()
+</script>
+
+
+
+<script>
+
 </script>
