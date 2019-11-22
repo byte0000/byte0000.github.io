@@ -1,5 +1,5 @@
 var audio = new Audio('mp3s/bg.mp3');
-audio.play();
+// audio.play();
 
 ;(function () {
 	
