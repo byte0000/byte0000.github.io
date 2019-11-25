@@ -1,0 +1,9 @@
+/* Create a dark background. */
+body {
+	margin: 0;
+}
+
+/* Fit the canvas to the page width. */
+canvas {
+	display: block;
+}
