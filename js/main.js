@@ -1,4 +1,13 @@
 var audio = new Audio('mp3s/bg.mp3');
+if (typeof audio.loop == 'boolean'){
+    audio.loop = true;
+} else {
+    audio.addEventListener('ended', function() {
+        this.currentTime = 0;
+        this.play();
+    }, false);
+}
+
 // audio.play();
 
 ;(function () {
